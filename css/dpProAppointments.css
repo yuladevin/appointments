@@ -1,0 +1,1429 @@
+@charset "utf-8";
+@import url("icheck-skins/flat/flat.css");
+@import url(//fonts.googleapis.com/css?family=Roboto:400,700);
+
+/* CSS Document */
+
+/* General Styles */
+
+.dp_pro_appointments {
+	font-family: Arial, Helvetica, sans-serif;
+	width: 100%;
+	line-height: 100%;
+	border: 1px solid #E6E6E6;
+	border-bottom: 1px solid #E9E9E9;
+	background: #f9f9f9;
+	-moz-box-shadow: 0px 3px 2px #d6d6d6;
+	-webkit-box-shadow: 0px 3px 2px #d6d6d6;
+	box-shadow: 0px 3px 2px #d6d6d6;
+	margin: 10px 0;
+}
+
+.dp_pro_appointments .clear,
+.dp_appointments_clear {
+	clear: both;
+}
+
+.dp_pro_appointments p {
+	padding: 0;
+	font-family: 'Roboto'arial;
+	line-height: 150%;
+}
+
+.dp_pro_appointments .dp_appointments_content {
+	width: auto;
+	padding: 10px;
+	display: table;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.dp_pro_appointments .dp_appointments_dayname {
+	width: 13.42857142857143%;
+	padding: 5px 0;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 5px 0;
+	text-align: center;
+	float: right;
+	margin-left: 1%;
+
+	-moz-box-shadow: 0 1px 2px #ccc;
+	-ms-box-shadow: 0 1px 2px #ccc;
+	-webkit-box-shadow: 0 1px 2px #CCC;
+	box-shadow: 0 1px 2px #CCC;
+	background: #f5f5f5;
+}
+
+.dp_pro_appointments .dp_appointments_dayname:last-child {
+	margin-left: 0;
+}
+
+.dp_pro_appointments .dp_appointments_dayname span {
+	font-size: 11px;
+	text-transform: uppercase;
+
+	color: #999;
+	text-shadow: 0 1px 0 white;
+}
+
+.dp_pro_appointments .dp_appointments_nav {
+	text-align: center;
+	position: relative;
+	margin-top: 10px;
+	padding-bottom: 10px;
+	margin-left: 10px;
+	margin-right: 10px;
+
+	border-bottom: 1px solid #eee;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric .button {
+	height: 35px !important;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric {
+	border: none;
+	background: none;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectricOpen .selectric {
+	border-color: #CCC;
+	background: none;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.service_name {
+	margin-bottom: 10px;
+	line-height: 100%;
+	border-bottom: 1px solid #eee;
+	display: block;
+	width: 100%;
+	padding-bottom: 5px;
+	text-align: left;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.next_week,
+.dp_pro_appointments .dp_appointments_nav span.prev_week {
+	cursor: pointer;
+	font-size: 16px;
+	opacity: .7;
+	margin-left: 10px;
+	color: #999;
+	text-shadow: 0 1px 0 white;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.next_week {
+	float: left;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.prev_week {
+	float: right;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.actual_week {
+	max-width: 400px;
+	text-align: left;
+	font-size: 22px;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_nav span.actual_week {
+	font-size: 18px;
+	margin: 10px 0;
+	display: inline-block;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_content .dp_appointments_date.first-child {
+	width: 100%;
+	position: relative;
+	text-align: center;
+	top: 0;
+	padding: 0 5px;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_content .dp_appointments_date .dp_date_head {
+	position: relative;
+	width: auto;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.next_week:hover,
+.dp_pro_appointments .dp_appointments_nav span.prev_week:hover {
+	opacity: 1;
+}
+
+.dp_pro_appointments .dp_appointments_nav span.prev_week strong,
+.dp_pro_appointments .dp_appointments_nav span.next_week strong {
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_nav span.prev_week strong,
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_nav span.next_week strong {
+	font-size: 11px;
+}
+
+.dp_pro_appointments .dp_appointments_nav span {
+	font-size: 32px;
+	text-transform: uppercase;
+	margin: 0;
+	padding: 0;
+	font-family: 'Roboto';
+	line-height: 100%;
+	margin: auto;
+}
+
+.dp_pro_appointments .dp_appointments_nav span {
+	color: #999;
+	text-shadow: 0 1px 0 white;
+}
+
+.dp_pro_appointments .dp_appointments_row {
+	clear: both;
+	margin-bottom: 10px;
+	position: relative;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date {
+	position: relative;
+	width: 13.42857142857143%;
+	height: 100%;
+	min-height: 50px;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	margin: 5px 0;
+	cursor: pointer;
+	float: right;
+	margin-right: 1%;
+	margin-top: 15px;
+	font-size: 32px;
+	text-align: center;
+	line-height: 50px;
+
+	-webkit-box-shadow: 0 1px 2px #CCC;
+	box-shadow: 0 1px 2px #CCC;
+	background: #fff;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date:nth-child(2) {
+	margin-right: 0 !important;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_content .dp_appointments_date {
+	font-size: 16px;
+	min-height: 44px;
+	line-height: 20px;
+	margin-top: 5px;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date:hover {
+	background: #DCEDC8;
+	color: #000;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date.first-child {
+	cursor: default;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 50px;
+	clear: both;
+	position: absolute;
+	z-index: 999;
+	box-shadow: none;
+	background: #47b7e6;
+	min-height: 20px;
+	top: -12px;
+	line-height: 20px;
+	font-size: 14px;
+	margin-left: 0;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date .dp_date_head {
+	padding: 0;
+	width: 50px;
+	height: 100%;
+	float: left;
+	text-align: center;
+	position: absolute;
+	left: 0;
+	overflow: hidden;
+	background: #47b7e6;
+	color: #fff !important;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	border: 0;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date .dp_date_head span {
+	font-size: 14px;
+	position: relative;
+	color: #fff !important;
+	text-shadow: none !important;
+	line-height: 20px;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date .dp_date_head span.dp_appointments_minutes {
+	top: -3px;
+	margin-top: 0;
+	line-height: 20px;
+	display: inline-block;
+	font-size: 10px;
+	margin-left: 3px;
+}
+
+.dp_pro_appointments .dp_appointments_content.dp_appointments_content_loading {
+	min-height: 200px;
+	display: block;
+	background: url(../images/ajax-loader.gif) no-repeat 50% 50px;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date.dp_appointments_closed {
+	background: none;
+	cursor: default;
+	box-shadow: none;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date.dp_appointments_appointed {
+	cursor: default;
+	background: #F8BBD0;
+	color: #AD1457;
+}
+
+.dp_pro_appointments .pro-appointments-add-footer {
+	border-top: 1px solid #E0E0E0;
+	margin-top: 15px;
+	padding: 12px 6px;
+	background: #fff;
+	margin-left: -10px;
+	margin-right: -10px;
+	margin-bottom: -10px;
+}
+
+.dp_pro_appointments .dp_appointments_pimary_btn,
+.dp_pro_appointments .dp_appointments_secondary_btn {
+	text-decoration: none;
+	float: right;
+	display: block;
+	margin: 0 4px;
+	position: relative;
+	cursor: pointer;
+	min-width: 88px;
+	background: #2196F3;
+	border: 0;
+	border-radius: 0;
+	color: #fff !important;
+	font-size: 16px;
+	font-family: 'Roboto';
+	font-weight: normal;
+	padding: 0 16px;
+	line-height: 36px;
+	outline: none;
+	box-shadow: 1px 2px 2px #ccc;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_pimary_btn,
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_secondary_btn {
+	margin-bottom: 5px;
+}
+
+.dp_pro_appointments .dp_appointments_pimary_btn:hover,
+.dp_pro_appointments .dp_appointments_pimary_btn:focus {
+	background: #1976D2;
+	color: #fff;
+	outline: 0;
+}
+
+.dp_pro_appointments .dp_appointments_pimary_btn:active {
+	background: #1976D2;
+	color: #fff;
+	box-shadow: 0px 4px 8px #ccc;
+	outline: 0;
+}
+
+.dp_pro_appointments .dp_appointments_secondary_btn {
+	background: #f7f7f7;
+	color: #777 !important;
+}
+
+.dp_pro_appointments .dp_appointments_secondary_btn:hover,
+.dp_pro_appointments .dp_appointments_secondary_btn:focus {
+	background: #eee;
+	color: #777;
+	outline: 0;
+}
+
+.dp_pro_appointments .dp_appointments_secondary_btn:active {
+	background: #eee;
+	color: #777;
+	box-shadow: 0px 4px 8px #ccc;
+	outline: 0;
+}
+
+.dp_pro_appointments .dp_appointments_full_width {
+	margin: 0;
+	width: 100%;
+	text-align: center;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_input_text {
+	-webkitbox-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	border: 0;
+	border-bottom: 1px solid #ddd;
+	width: 50%;
+	line-height: 35px;
+	padding: 0;
+	background: none;
+	margin: 0;
+}
+
+.dp_pro_appointments.dp_appointments_400 .dp_appointments_content .dp_appointments_input_text {
+	width: 100%;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_input_text:focus {
+	border-bottom-color: #2196f2;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_input_label {
+	width: 100%;
+	display: block;
+	float: right;
+	color: #777;
+	font-size: 16px;
+	line-height: 18px;
+	max-width: 150px;
+	margin-right: 10px;
+	cursor: default;
+	font-family: 'Roboto', arial;
+	margin-top: 10px;
+}
+
+.dp_pro_appointments .dp_appointments_tooltip {
+	position: absolute;
+	width: 100%;
+	max-width: 203px;
+	top: 50px;
+	font-size: 14px;
+	font-family: 'Roboto', arial;
+	text-align: center;
+	background: rgba(114, 114, 114, .9);
+	line-height: 150%;
+	padding: 11px 16px;
+	margin: 4px 0 0 0;
+	color: #f5f5f5;
+	z-index: 99999;
+	display: none;
+	-moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	min-width: 100px;
+}
+
+.dp_pro_appointments .dp_appointments_date:hover .dp_appointments_tooltip {
+	display: block;
+}
+
+.dp_pro_appointments .dp_appointments_my_appointments_list_wrap {
+	padding: 10px;
+}
+
+.dp_pro_appointments .dp_appointments_my_appointments_list {
+	float: left;
+	width: 25%;
+	box-sizing: border-box;
+	box-shadow: 0 1px 2px #CCC;
+	background: #fff;
+	margin: 10px 0;
+	margin-top: 0;
+	padding: 10px;
+	text-align: center;
+}
+
+.dp_appointments_400.dp_pro_appointments .dp_appointments_my_appointments_list {
+	width: 100%;
+}
+
+.dp_pro_appointments .dp_appointments_my_appointments_list_wrap p {
+	margin: 0;
+	color: #777 !important;
+}
+
+.dp_pro_appointments .dp_appointments_my_appointments_list_wrap p i {
+	margin-right: 10px;
+}
+
+.dp_pro_appointments .dp_appointments_my_appointments_list_wrap p.dp_appointments_appointment_status {
+	margin-top: 5px;
+	font-size: 11px;
+	text-transform: uppercase;
+	font-family: 'Roboto';
+}
+
+.dp_pro_appointments .dp_appointments_terms_conditions {
+	margin: 10px 0;
+}
+
+.dp_pro_appointments .icheckbox_flat {
+	float: left;
+	margin-right: 10px;
+	margin-top: -3px;
+}
+
+.dp_pro_appointments .appointments-errors {
+	background: #F44336;
+	font-weight: bold;
+	margin: 0 0 10px 0;
+	display: inline-block;
+	font-family: 'Roboto';
+	color: #fff;
+	padding: 5px 15px;
+}
+
+.dp_pro_appointments .appointments_gateway_item_title {
+	font-size: 18px;
+}
+
+.dp_pro_appointments .appointments_gateway_form {
+	display: none;
+}
+
+/* Modal */
+.dpProAppointmentsOverlay {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	display: none;
+	z-index: 9999999;
+	height: 100%;
+	width: 100%;
+	background: rgba(41, 47, 51, 0.9);
+	overflow: hidden;
+	cursor: pointer;
+}
+
+.dpProAppointmentsModal {
+	display: none;
+	position: fixed !important;
+	max-width: 600px !important;
+	width: 100% !important;
+	right: 0 !important;
+	left: 0 !important;
+	margin: 0 auto !important;
+	top: 30px;
+	z-index: 99999999;
+	/*-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	transition: all 1s ease;*/
+	background: #fafafa !important;
+	-webkit-box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.35);
+	-moz-box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.35);
+	box-shadow: 2px 2px 7px 0 rgba(0, 0, 0, 0.35);
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+	min-height: 110px;
+}
+
+.dpProAppointmentsModal h2 {
+	background: #fff;
+	border-bottom: 1px solid #e1e8ed;
+	font-size: 20px;
+	font-weight: normal;
+	line-height: 22px;
+	color: #8899a6;
+	padding: 8px 16px;
+	-webkit-font-smoothing: subpixel-antialiased;
+	font-family: 'Roboto', Arial, sans-serif;
+	margin: 0 !important;
+	-moz-border-radius: 6px 6px 0 0;
+	-webkit-border-radius: 6px 6px 0 0;
+	border-radius: 6px 6px 0 0;
+}
+
+.dpProAppointmentsModal .pro-appointments-content {
+	padding: 10px;
+}
+
+/* Selectric */
+
+.dp_pro_appointments .selectricWrapper {
+	position: relative;
+	margin: 0 0 10px;
+	min-width: 250px;
+	cursor: pointer;
+	margin-top: 5px;
+	float: left;
+	text-align: left;
+}
+
+.dp_pro_appointments .selectricResponsive {
+	width: 100%;
+}
+
+.dp_pro_appointments .selectric {
+	border: 1px solid #DDD;
+	background: #F8F8F8;
+	position: relative;
+	border-radius: 2px;
+}
+
+.dp_pro_appointments .selectric .label {
+	display: block;
+	white-space: nowrap;
+	overflow: hidden;
+	margin: 0 30px 0 0;
+	padding: 6px;
+	font-size: 12px;
+	line-height: 18px;
+	color: #444;
+	min-height: 18px;
+	background: inherit;
+	text-shadow: none;
+	font-weight: normal;
+	-moz-border-radius: 0;
+	-webkit-border-radius: 0;
+	border-radius: 0;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric .label {
+	font-size: 28px;
+	text-transform: uppercase;
+	text-align: left;
+	font-family: Arial;
+	line-height: 100%;
+	color: #999;
+}
+
+.dp_pro_appointments .selectric .button {
+	display: block;
+	position: absolute;
+	right: 0;
+	top: 0;
+	width: 30px;
+	height: 30px;
+	color: #BBB;
+	text-align: center;
+	font: 0/0 a;
+	/* IE Fix */
+	*font: 20px/30px Lucida Sans Unicode, Arial Unicode MS, Arial;
+	background: none;
+	text-shadow: none;
+	border: none;
+	border-radius: 0;
+	padding: 0 !important;
+	box-shadow: none;
+}
+
+.dp_pro_appointments .selectric .button:after {
+	content: " ";
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	margin: auto;
+	width: 0;
+	height: 0;
+	border: 4px solid transparent;
+	border-top-color: #BBB;
+	border-bottom: none;
+}
+
+.dp_pro_appointments .selectricHover .selectric {
+	border-color: #CCC;
+}
+
+.dp_pro_appointments .selectricHover .selectric .button {
+	color: #888;
+}
+
+.dp_pro_appointments .selectricHover .selectric .button:after {
+	border-top-color: #888;
+}
+
+.dp_pro_appointments .selectricOpen {
+	z-index: 99999;
+}
+
+.dp_pro_appointments .selectricOpen .selectric {
+	border-color: #CCC;
+	background: #F0F0F0;
+	z-index: 9999;
+}
+
+.dp_pro_appointments .selectricOpen .selectricItems {
+	display: block;
+}
+
+.dp_pro_appointments .selectricDisabled {
+	filter: alpha(opacity=50);
+	opacity: 0.5;
+	cursor: default;
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+.dp_pro_appointments .selectricHideSelect {
+	position: relative;
+	overflow: hidden;
+	width: 0;
+	height: 0;
+}
+
+.dp_pro_appointments .selectricHideSelect select {
+	position: absolute;
+	left: -100%;
+	display: none;
+}
+
+.dp_pro_appointments .selectricInput {
+	position: absolute !important;
+	top: 0 !important;
+	left: 0 !important;
+	overflow: hidden !important;
+	clip: rect(0, 0, 0, 0) !important;
+	margin: 0 !important;
+	padding: 0 !important;
+	width: 1px !important;
+	height: 1px !important;
+	outline: none !important;
+	border: none !important;
+	*font: 0/0 a !important;
+	background: none !important;
+}
+
+.dp_pro_appointments .selectricTempShow {
+	position: absolute !important;
+	visibility: hidden !important;
+	display: block !important;
+}
+
+/* Items box */
+
+.selectricItems {
+	display: none;
+	position: absolute;
+	overflow: auto;
+	top: 100%;
+	left: 0;
+	background: #F9F9F9;
+	border: 1px solid #CCC;
+	z-index: 9998;
+	-webkit-box-shadow: 0 0 10px -6px;
+	box-shadow: 0 0 10px -6px;
+}
+
+.selectricItems ul,
+.selectricItems li {
+	list-style: none;
+	padding: 0 !important;
+	margin: 0 !important;
+	font-size: 12px;
+	line-height: 20px;
+	min-height: 20px;
+	float: none !important;
+}
+
+.selectricItems li {
+	display: block;
+	padding: 5px !important;
+	border-top: 1px solid #FFF;
+	border-bottom: 1px solid #EEE;
+	color: #666;
+	cursor: pointer;
+	margin: 0 !important;
+}
+
+.selectricItems li.selected {
+	background: #EFEFEF;
+	color: #444;
+	border-top-color: #E0E0E0;
+}
+
+.selectricItems li:hover {
+	background: #F0F0F0;
+	color: #444;
+}
+
+.selectricItems li.disabled {
+	background: #F5F5F5;
+	color: #BBB;
+	border-top-color: #FAFAFA;
+	cursor: default;
+}
+
+.dp_pro_appointments .selectric .label {
+	padding: 4px 6px 3px;
+	margin-right: 20px;
+}
+
+.dp_pro_appointments .selectric .button {
+	height: 25px !important;
+	width: 18px;
+	line-height: 25px;
+}
+
+
+/* Skin Colors */
+
+/* RED */
+.dp_pro_appointments.appointments_skin_red .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_red .dp_appointments_dayname span {
+	background: #EF5350;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_red .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_red .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_red .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #E57373;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* PINK */
+.dp_pro_appointments.appointments_skin_pink .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_pink .dp_appointments_dayname span {
+	background: #EC407A;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_pink .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_pink .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_pink .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #F06292;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* PURPLE */
+.dp_pro_appointments.appointments_skin_purple .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_purple .dp_appointments_dayname span {
+	background: #AB47BC;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_purple .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_purple .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_purple .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #BA68C8;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* DEEP PURPLE */
+.dp_pro_appointments.appointments_skin_deep_purple .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_deep_purple .dp_appointments_dayname span {
+	background: #7E57C2;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_deep_purple .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_deep_purple .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_deep_purple .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #9575CD;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* INDIGO */
+.dp_pro_appointments.appointments_skin_indigo .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_indigo .dp_appointments_dayname span {
+	background: #5C6BC0;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_indigo .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_indigo .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_indigo .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #7986CB !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* BLUE */
+.dp_pro_appointments.appointments_skin_blue .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_blue .dp_appointments_dayname span {
+	background: #42A5F5;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_blue .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_blue .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_blue .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #64B5F6 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* LIGHT BLUE */
+.dp_pro_appointments.appointments_skin_light_blue .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_light_blue .dp_appointments_dayname span {
+	background: #29B6F6;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_light_blue .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_light_blue .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_light_blue .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #4FC3F7 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* CYAN */
+.dp_pro_appointments.appointments_skin_cyan .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_cyan .dp_appointments_dayname span {
+	background: #26C6DA;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_cyan .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_cyan .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_cyan .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #4DD0E1 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* TEAL */
+.dp_pro_appointments.appointments_skin_teal .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_teal .dp_appointments_dayname span {
+	background: #26A69A;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_teal .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_teal .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_teal .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #4DB6AC !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* GREEN */
+.dp_pro_appointments.appointments_skin_green .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_green .dp_appointments_dayname span {
+	background: #66BB6A;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_green .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_green .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_green .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #81C784 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* LIGHT GREEN */
+.dp_pro_appointments.appointments_skin_light_green .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_light_green .dp_appointments_dayname span {
+	background: #9CCC65;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_light_green .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_light_green .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_light_green .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #AED581 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* LIME */
+.dp_pro_appointments.appointments_skin_lime .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_lime .dp_appointments_dayname span {
+	background: #D4E157;
+	color: #333;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_lime .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_lime .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_lime .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #DCE775 !important;
+	color: #333;
+	text-shadow: none;
+}
+
+/* YELLOW */
+.dp_pro_appointments.appointments_skin_yellow .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_yellow .dp_appointments_dayname span {
+	background: #FFEE58;
+	color: #333;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_yellow .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_yellow .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_yellow .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #FFF176 !important;
+	color: #333;
+	text-shadow: none;
+}
+
+/* AMBER */
+.dp_pro_appointments.appointments_skin_amber .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_amber .dp_appointments_dayname span {
+	background: #FFCA28;
+	color: #333;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_amber .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_amber .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_amber .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #FFD54F !important;
+	color: #333;
+	text-shadow: none;
+}
+
+/* ORANGE */
+.dp_pro_appointments.appointments_skin_orange .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_orange .dp_appointments_dayname span {
+	background: #FFA726;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_orange .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_orange .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_orange .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #FFB74D !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* DEEP ORANGE */
+.dp_pro_appointments.appointments_skin_deep_orange .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_deep_orange .dp_appointments_dayname span {
+	background: #FF7043;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_deep_orange .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_deep_orange .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_deep_orange .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #FF8A65 !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* BROWN */
+.dp_pro_appointments.appointments_skin_brown .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_brown .dp_appointments_dayname span {
+	background: #8D6E63;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_brown .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_brown .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_brown .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #A1887F !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* GREY */
+.dp_pro_appointments.appointments_skin_grey .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_grey .dp_appointments_dayname span {
+	background: #BDBDBD;
+	color: #333;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_grey .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_grey .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_grey .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #E0E0E0 !important;
+	color: #333;
+	text-shadow: none;
+}
+
+/* BLUE GREY */
+.dp_pro_appointments.appointments_skin_blue_grey .dp_appointments_dayname,
+.dp_pro_appointments.appointments_skin_blue_grey .dp_appointments_dayname span {
+	background: #78909C;
+	color: #fff;
+	text-shadow: none;
+	border: 0;
+}
+
+.dp_pro_appointments.appointments_skin_blue_grey .dp_appointments_content .dp_appointments_date .dp_date_head,
+.dp_pro_appointments.appointments_skin_blue_grey .dp_appointments_content .dp_appointments_date .dp_date_head span,
+.dp_pro_appointments.appointments_skin_blue_grey .dp_appointments_content .dp_appointments_date.first-child .dp_date_head {
+	border: 0;
+	background: #90A4AE !important;
+	color: #fff;
+	text-shadow: none;
+}
+
+/* General color */
+
+.dp_appointments_accordion_wrapper.appointments_skin_red .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_red .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_pink .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_pink .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_purple .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_purple .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_deep_purple .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_deep_purple .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_indigo .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_indigo .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_light_blue .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_light_blue .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_blue .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_blue .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_cyan .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_cyan .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_teal .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_teal .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_green .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_green .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_light_green .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_light_green .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_orange .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_orange .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_deep_orange .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_deep_orange .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_brown .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_brown .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_blue_grey .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_blue_grey .dp_appointments_content_header h2 {
+	color: #fff;
+}
+
+.dp_appointments_accordion_wrapper.appointments_skin_lime .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_lime .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_yellow .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_yellow .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_amber .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_amber .dp_appointments_content_header h2,
+.dp_appointments_accordion_wrapper.appointments_skin_grey .dp_appointments_content_header h2,
+.dp_appointments_new_event_wrapper.appointments_skin_grey .dp_appointments_content_header h2 {
+	color: #111;
+}
+
+/* #Media Queries
+================================================== */
+
+@media only screen and (max-width: 1150px) {}
+
+@media only screen and (max-width: 940px) {}
+
+/* Tablet Portrait size to standard 960 (devices and browsers) */
+@media only screen and (min-width: 768px) {}
+
+/* All Mobile Sizes (devices and browser) */
+@media only screen and (max-width: 767px) {}
+
+/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
+@media only screen and (min-width: 480px) and (max-width: 767px) {}
+
+/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
+@media only screen and (max-width: 479px) {}
+
+@media print {}
+
+.dp_pro_appointments .dp_appointments_nav .selectric {
+
+	height: 30px;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric .label {
+	margin-top: -30px;
+	height: 30px;
+	padding: 0px;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric {
+	background: #ff7360;
+	color: #000;
+	height: 40px;
+}
+
+.dp_pro_appointments .dp_appointments_nav .selectric .label {
+	color: #fff;
+}
+
+.dp_pro_appointments .selectric .button:after {
+	border-top-color: #fff;
+}
+
+.dp_appointments_date input[type="button"] {
+	display: none !important;
+}
+
+.dp_appointments_appointed input[type="button"] {
+	display: block !important;
+	content: "/f057";
+	border: none;
+	color: #000;
+	padding: 0px;
+	font-size: 20px;
+	border-radius: 0px;
+}
+
+/*Aditioanal*/
+
+.dp_appointments_date.dp_appointments_appointed {
+	font-size: 15px !important;
+}
+
+@media only screen and (max-width:992px) {
+	.dp_pro_appointments.dp_appointments_400 .dp_appointments_content .dp_appointments_date {
+		font-size: 10px;
+	}
+}
+
+.dayname-sticky {
+	position: -webkit-sticky;
+	position: sticky;
+	top: 130px;
+	height: 30px;
+	width: 100%;
+	z-index: 99999;
+}
+
+.service_name {
+	font-size: 50px !important;
+	line-height: 30px !important;
+	margin: 0px !important;
+	padding: 10px;
+	font-weight: bold !important;
+}
+
+.dp_pro_appointments {
+	max-height: 580px;
+	overflow-y: scroll;
+	margin-top: 0px !important;
+}
+
+.dp_pro_appointments .dp_appointments_nav {
+	height: initial;
+	position: sticky;
+	top: 0;
+	width: 100%;
+	z-index: 99999;
+	background: #fff;
+	margin: 0px;
+	padding: 0 10px;
+}
+
+button#appoint_checklist_push {
+	border-radius: 30px;
+	padding: 0 20px;
+	background: #bf60c7;
+	color: #fff;
+	font-size: 20px;
+	line-height: 10px;
+	height: 38px;
+	border-color: transparent;
+	font-family: HEEBO;
+	margin-top: 10px;
+}
+
+button#appoint_checklist_delete {
+	border-radius: 30px;
+	padding: 0 20px;
+	background: #fff;
+	color: #ccc;
+	font-size: 20px;
+	line-height: 10px;
+	height: 38px;
+	border: 1px solid #ccc;
+	font-family: HEEBO;
+	margin-top: 10px;
+	margin-right: 5px;
+	margin-left: 10px;
+}
+
+button#appoint_checklist_delete.fa-close:before {
+	font: normal normal normal 14px/1 FontAwesome !important;
+}
+
+.fa-circle-thin:before {
+	content: "\f1db";
+	margin: -10px 0 9px -8px;
+	position: absolute;
+}
+
+.dp_appointments_date input[type="checkbox"] {
+	border-radius: 50px;
+	-webkit-appearance: none;
+	background-color: #fff;
+	border: 1px solid #ccc;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 9px;
+	display: inline-block;
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: -4px;
+}
+
+.dp_appointments_date input[type="checkbox"]:active,
+.dp_appointments_date input[type="checkbox"]:checked:active {
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.dp_appointments_date input[type="checkbox"]:checked {
+	background-color: #dofoco;
+	border: 1px solid #adb8c0;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05), inset 15px 10px -12px rgba(255, 255, 255, 0.1);
+	color: #99a1a7;
+}
+
+.dp_appointments_date input[type="checkbox"]:checked:after {
+	content: '\2714';
+	font-size: 14px;
+	position: absolute;
+	top: 0px;
+	left: 3px;
+	color: #99a1a7;
+}
+
+.dp_appointments_date input[type="checkbox"] {
+	padding: 18px;
+}
+
+.dp_appointments_date input[type="checkbox"]:checked:after {
+	font-size: 28px;
+	left: 6px;
+}
+
+.dp_appointments_date.dp_appointments_appointed input[type="checkbox"] {
+	width: 100%;
+	height: 50px;
+	top: 0;
+	position: absolute;
+	right: 0;
+	left: 0;
+	margin: 0;
+	bottom: 0;
+	border-radius: 0;
+	background: transparent !important;
+	color: #AD1457 !important;
+	pointer-events: all;
+	color: #AD1457 !important;
+	border: 1px solid #AD1457;
+}
+
+.dp_pro_appointments .dp_appointments_content .dp_appointments_date.dp_appointments_appointed {
+	pointer-events: none !important;
+	background: transparent !important;
+}
+
+@media(max-width:991px) {
+	.dp_appointments_date.dp_appointments_appointed input[type="checkbox"] {
+		height: 100% !important;
+	}
+
+	.dp_appointments_date input[type="checkbox"] {
+		margin: 4px 4px -5px;
+	}
+
+	.dp_pro_appointments .dp_appointments_nav span.actual_week {
+		margin-top: 10px;
+	}
+
+	.dayname-sticky {
+		top: 135px !important;
+	}
+
+	.dp_pro_appointments .dp_appointments_nav span.next_week,
+	.dp_pro_appointments .dp_appointments_nav span.prev_week {
+		margin-top: 10px;
+	}
+}
+
+@media(min-width:992px) {
+	.dp_pro_appointments .dp_appointments_nav span.actual_week {
+		margin-top: -10px;
+	}
+
+	.dp_pro_appointments .dp_appointments_nav span.next_week,
+	.dp_pro_appointments .dp_appointments_nav span.prev_week {
+		margin-top: -10px;
+	}
+
+	@media only screen and (min-width:992px) {
+		.col-sm-12.article__body.post-content {
+			padding: 0px !important;
+		}
+	}
+
+	@media (min-width:1495px) {
+		.dp_pro_appointments {
+			max-height: 780px !important;
+		}
+	}
+}
+
+.harel-weeks-container {
+	margin: 10px 0;
+}
+
+.dp_appointments_content {
+	min-height: 100vh !important;
+}

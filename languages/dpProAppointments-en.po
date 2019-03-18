@@ -1,0 +1,1187 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: DP Pro Appointments\n"
+"POT-Creation-Date: 2016-01-07 16:34-0300\n"
+"PO-Revision-Date: 2016-01-07 16:35-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.4\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: classes/base.class.php:168 classes/base.class.php:176
+#: settings/settings.php:159
+msgid "Monday"
+msgstr ""
+
+#: classes/base.class.php:173 classes/base.class.php:199
+#: settings/settings.php:158
+msgid "Sunday"
+msgstr ""
+
+#: classes/base.class.php:181
+msgid "Tuesday"
+msgstr ""
+
+#: classes/base.class.php:184
+msgid "Wednesday"
+msgstr ""
+
+#: classes/base.class.php:187
+msgid "Thursday"
+msgstr ""
+
+#: classes/base.class.php:190
+msgid "Friday"
+msgstr ""
+
+#: classes/base.class.php:193
+msgid "Saturday"
+msgstr ""
+
+#: classes/base.class.php:337
+msgid "Next Week"
+msgstr ""
+
+#: classes/base.class.php:338
+msgid "Prev Week"
+msgstr ""
+
+#: classes/base.class.php:375 layers/my-appointments-widget.php:47
+#: settings/custom_shortcodes.php:52
+msgid "My Appointments"
+msgstr ""
+
+#: classes/base.class.php:388
+msgid "No Appointments"
+msgstr ""
+
+#: classes/base.class.php:402
+msgid "Load More"
+msgstr ""
+
+#: classes/base.class.php:489 includes/export_appointments.php:44
+#: settings/appointments.php:276 settings/appointments.php:338
+msgid "Active"
+msgstr ""
+
+#: classes/base.class.php:492 includes/export_appointments.php:47
+#: settings/appointments.php:277 settings/appointments.php:341
+msgid "Pending of approval"
+msgstr ""
+
+#: classes/base.class.php:495 functions.php:189 functions.php:202
+#: includes/export_appointments.php:50 settings/appointments.php:278
+#: settings/appointments.php:344
+msgid "Completed"
+msgstr ""
+
+#: classes/base.class.php:498 functions.php:193 functions.php:205
+#: includes/export_appointments.php:53 settings/appointments.php:279
+#: settings/appointments.php:347
+msgid "Canceled"
+msgstr ""
+
+#: classes/base.class.php:501 includes/export_appointments.php:56
+#: settings/appointments.php:280 settings/appointments.php:350
+msgid "Pending of Payment"
+msgstr ""
+
+#: classes/class-gateway-paypal.php:18
+msgid "PayPal"
+msgstr ""
+
+#: classes/class-gateway-paypal.php:64 classes/class-gateway-stripe.php:251
+#, php-format
+msgid "Appointment for %s"
+msgstr ""
+
+#: classes/class-gateway-paypal.php:92
+msgid ""
+"Thank you for your order. We are now redirecting you to PayPal to make "
+"payment."
+msgstr ""
+
+#: classes/class-gateway-paypal.php:113
+msgid "Pay via PayPal"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:19
+msgid "Stripe"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:63
+msgid "Pay via Stripe"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:76
+msgid "Appointment for "
+msgstr ""
+
+#: classes/class-gateway-stripe.php:81
+msgid "Card Number"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:86
+msgid "MM"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:88
+msgid "YYYY"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:93
+msgid "CVC"
+msgstr ""
+
+#: classes/class-gateway-stripe.php:96
+msgid "Pay"
+msgstr ""
+
+#: functions.php:42 functions.php:54 layers/schedule-widget.php:46
+#: settings/appointments.php:100 settings/appointments.php:113
+#: settings/custom_shortcodes.php:22 settings/payments.php:25
+#: settings/settings.php:14 settings/settings.php:15 settings/settings.php:83
+msgid "Appointments"
+msgstr ""
+
+#: functions.php:43 functions.php:664 functions.php:702
+msgid "Appointment"
+msgstr ""
+
+#: functions.php:44 settings/appointments.php:304
+#: settings/appointments.php:421
+msgid "Add New"
+msgstr ""
+
+#: functions.php:45
+msgid "Add New Appointment"
+msgstr ""
+
+#: functions.php:46
+msgid "Edit Appointment"
+msgstr ""
+
+#: functions.php:47
+msgid "New Appointment"
+msgstr ""
+
+#: functions.php:48
+msgid "All Appointments"
+msgstr ""
+
+#: functions.php:49
+msgid "View Appointment"
+msgstr ""
+
+#: functions.php:50
+msgid "Search Appointments"
+msgstr ""
+
+#: functions.php:51
+msgid "No Appointments Found"
+msgstr ""
+
+#: functions.php:52
+msgid "No Appointments Found in Trash"
+msgstr ""
+
+#: functions.php:125
+msgctxt "taxonomy general name"
+msgid "Services"
+msgstr ""
+
+#: functions.php:126
+msgctxt "taxonomy singular name"
+msgid "Service"
+msgstr ""
+
+#: functions.php:127
+msgid "Search Services"
+msgstr ""
+
+#: functions.php:128
+msgid "All Services"
+msgstr ""
+
+#: functions.php:129
+msgid "Parent Service"
+msgstr ""
+
+#: functions.php:130
+msgid "Parent Service:"
+msgstr ""
+
+#: functions.php:131
+msgid "Edit Service"
+msgstr ""
+
+#: functions.php:132
+msgid "Update Service"
+msgstr ""
+
+#: functions.php:133
+msgid "Add New Service"
+msgstr ""
+
+#: functions.php:134
+msgid "New Service Name"
+msgstr ""
+
+#: functions.php:135
+msgid "No Services Found"
+msgstr ""
+
+#: functions.php:136 settings/appointments.php:315
+#: settings/appointments.php:411 settings/custom_shortcodes.php:85
+#: settings/settings.php:448
+msgid "Service"
+msgstr ""
+
+#: functions.php:153
+msgctxt "dpProAppointments"
+msgid "Completed"
+msgstr ""
+
+#: functions.php:158
+#, php-format
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:162
+msgctxt "dpProAppointments"
+msgid "Canceled"
+msgstr ""
+
+#: functions.php:167
+#, php-format
+msgid "Canceled <span class=\"count\">(%s)</span>"
+msgid_plural "Canceled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:171
+msgctxt "dpProAppointments"
+msgid "Pending Payment"
+msgstr ""
+
+#: functions.php:176
+#, php-format
+msgid "Pending Payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending Payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:197
+msgid "Pending Payment"
+msgstr ""
+
+#: functions.php:215
+msgid "Updated Succesfully."
+msgstr ""
+
+#: functions.php:312
+msgid "This date is not available for booking"
+msgstr ""
+
+#: functions.php:315 functions.php:337 functions.php:413
+#: settings/appointments.php:293
+msgid "Cancel"
+msgstr ""
+
+#: functions.php:324
+msgid "Appointment date:"
+msgstr ""
+
+#: functions.php:327
+msgid "Price:"
+msgstr ""
+
+#: functions.php:333
+msgid "You must be logged in to set an appointment."
+msgstr ""
+
+#: functions.php:357
+msgid "Introduce the required fields"
+msgstr ""
+
+#: functions.php:359
+msgid "Name"
+msgstr ""
+
+#: functions.php:364
+msgid "Email"
+msgstr ""
+
+#: functions.php:369
+msgid "Phone"
+msgstr ""
+
+#: functions.php:378 settings/settings.php:307
+msgid "Address"
+msgstr ""
+
+#: functions.php:386 settings/settings.php:305
+msgid "City"
+msgstr ""
+
+#: functions.php:394 settings/settings.php:309
+msgid "Note"
+msgstr ""
+
+#: functions.php:404
+#, php-format
+msgid "I've read and accept the %s terms & conditions %s"
+msgstr ""
+
+#: functions.php:412
+msgid "Submit Appointment"
+msgstr ""
+
+#: functions.php:482
+msgid ""
+"Appointment sent sucessfully, please select a payment method to continue."
+msgstr ""
+
+#: functions.php:487
+msgid ""
+"Appointment sent sucessfully, you will receive a confirmation through email."
+msgstr ""
+
+#: functions.php:489
+msgid ""
+"Appointment sent sucessfully, you will receive an email when it's approved."
+msgstr ""
+
+#: functions.php:541
+msgid "Continue"
+msgstr ""
+
+#: functions.php:614
+msgid "Introduce your credit card information in the form below."
+msgstr ""
+
+#: functions.php:667
+msgid ""
+"Thanks for your purchase, you will receive an email with the details of the "
+"appointment."
+msgstr ""
+
+#: functions.php:672 functions.php:710
+msgid "Close"
+msgstr ""
+
+#: functions.php:705
+msgid ""
+"The transaction couldn't be completed succesfully. Please try again later."
+msgstr ""
+
+#: includes/core.php:135 includes/core.php:194 settings/payments.php:131
+#: settings/payments.php:218
+msgid "Title"
+msgstr ""
+
+#: includes/core.php:140 includes/core.php:199 settings/payments.php:145
+#: settings/payments.php:232
+msgid "Description"
+msgstr ""
+
+#: includes/export_appointments.php:22 includes/export_appointments.php:74
+#: settings/appointments.php:313 settings/appointments.php:409
+msgid "ID"
+msgstr ""
+
+#: includes/export_appointments.php:23 includes/export_appointments.php:75
+#: settings/appointments.php:314 settings/appointments.php:410
+msgid "Client"
+msgstr ""
+
+#: includes/export_appointments.php:24 includes/export_appointments.php:76
+#: settings/appointments.php:316 settings/appointments.php:412
+msgid "Date / Time"
+msgstr ""
+
+#: includes/export_appointments.php:25 includes/export_appointments.php:77
+#: settings/appointments.php:317 settings/appointments.php:413
+msgid "Status"
+msgstr ""
+
+#: includes/export_appointments.php:36 settings/appointments.php:330
+msgid "No appointments have been found."
+msgstr ""
+
+#: layers/my-appointments-widget.php:26
+msgid "DP Pro Appointments - My Appointments"
+msgstr ""
+
+#: layers/my-appointments-widget.php:37
+msgid "Display the appointments of the logged in user."
+msgstr ""
+
+#: layers/my-appointments-widget.php:175 layers/schedule-widget.php:175
+msgid "Display"
+msgstr ""
+
+#: layers/my-appointments-widget.php:182
+msgid "Show Title"
+msgstr ""
+
+#: layers/my-appointments-widget.php:189
+msgid "Show Status"
+msgstr ""
+
+#: layers/my-appointments-widget.php:196
+msgid "Show Pagination"
+msgstr ""
+
+#: layers/my-appointments-widget.php:215 layers/schedule-widget.php:215
+msgid "Post"
+msgstr ""
+
+#: layers/my-appointments-widget.php:228 layers/schedule-widget.php:228
+msgid "Enter title here"
+msgstr ""
+
+#: layers/my-appointments-widget.php:241 layers/schedule-widget.php:241
+msgid "Short Description"
+msgstr ""
+
+#: layers/my-appointments-widget.php:249
+msgid "Number of items to show"
+msgstr ""
+
+#: layers/my-appointments-widget.php:250
+msgid "Show All"
+msgstr ""
+
+#: layers/schedule-widget.php:26
+msgid "DP Pro Appointments - Schedule"
+msgstr ""
+
+#: layers/schedule-widget.php:36
+msgid "Display the schedule of appointments."
+msgstr ""
+
+#: layers/schedule-widget.php:182 settings/custom_shortcodes.php:160
+msgid "Show Week Navigation"
+msgstr ""
+
+#: layers/schedule-widget.php:189 settings/custom_shortcodes.php:177
+msgid "Show Tooltips"
+msgstr ""
+
+#: layers/schedule-widget.php:196
+msgid "Time Background Color"
+msgstr ""
+
+#: settings/appointments.php:99 settings/custom_shortcodes.php:21
+#: settings/payments.php:24 settings/settings.php:82 settings/settings.php:96
+msgid "General Settings"
+msgstr ""
+
+#: settings/appointments.php:101 settings/custom_shortcodes.php:23
+#: settings/payments.php:26 settings/payments.php:38 settings/settings.php:19
+#: settings/settings.php:84
+msgid "Payment Options"
+msgstr ""
+
+#: settings/appointments.php:102 settings/custom_shortcodes.php:24
+#: settings/custom_shortcodes.php:35 settings/payments.php:27
+#: settings/settings.php:85
+msgid "Shortcode Generator"
+msgstr ""
+
+#: settings/appointments.php:134
+msgid "Appointment Date:"
+msgstr ""
+
+#: settings/appointments.php:137
+msgid "Format: YYYY-MM-DD"
+msgstr ""
+
+#: settings/appointments.php:147
+msgid "Appointment Time:"
+msgstr ""
+
+#: settings/appointments.php:172
+msgid "Service:"
+msgstr ""
+
+#: settings/appointments.php:176 settings/appointments.php:371
+#: settings/custom_shortcodes.php:51 settings/custom_shortcodes.php:89
+#: settings/settings.php:452
+msgid "Default"
+msgstr ""
+
+#: settings/appointments.php:194
+msgid "Name:"
+msgstr ""
+
+#: settings/appointments.php:207
+msgid "Email:"
+msgstr ""
+
+#: settings/appointments.php:220
+msgid "Phone:"
+msgstr ""
+
+#: settings/appointments.php:233
+msgid "City:"
+msgstr ""
+
+#: settings/appointments.php:246
+msgid "Address:"
+msgstr ""
+
+#: settings/appointments.php:259
+msgid "Note:"
+msgstr ""
+
+#: settings/appointments.php:272
+msgid "Status:"
+msgstr ""
+
+#: settings/appointments.php:291
+msgid "Submit"
+msgstr ""
+
+#: settings/appointments.php:306 settings/appointments.php:423
+msgid "Export Appointments"
+msgstr ""
+
+#: settings/appointments.php:318 settings/appointments.php:414
+msgid "Actions"
+msgstr ""
+
+#: settings/appointments.php:397
+msgid "Edit"
+msgstr ""
+
+#: settings/appointments.php:398
+msgid "Delete"
+msgstr ""
+
+#: settings/appointments.php:398
+msgid "Are you sure?"
+msgstr ""
+
+#: settings/custom_shortcodes.php:18
+msgid "Version:"
+msgstr ""
+
+#: settings/custom_shortcodes.php:36
+msgid ""
+"Get a custom shortcode and paste it in your post / page. If needed, you can "
+"place a shortcode inside the template php files using this code i.e: "
+msgstr ""
+
+#: settings/custom_shortcodes.php:47
+msgid "Layout"
+msgstr ""
+
+#: settings/custom_shortcodes.php:56
+msgid "Select a layout type."
+msgstr ""
+
+#: settings/custom_shortcodes.php:64
+msgid "Provider"
+msgstr ""
+
+#: settings/custom_shortcodes.php:68
+msgid "Current logged in user"
+msgstr ""
+
+#: settings/custom_shortcodes.php:77
+msgid "Select a provider."
+msgstr ""
+
+#: settings/custom_shortcodes.php:100
+msgid "Select a service to filter the appointments."
+msgstr ""
+
+#: settings/custom_shortcodes.php:108
+msgid "Skin color"
+msgstr ""
+
+#: settings/custom_shortcodes.php:112 settings/settings.php:112
+msgid "None"
+msgstr ""
+
+#: settings/custom_shortcodes.php:113
+msgid "Red"
+msgstr ""
+
+#: settings/custom_shortcodes.php:114
+msgid "Pink"
+msgstr ""
+
+#: settings/custom_shortcodes.php:115
+msgid "Purple"
+msgstr ""
+
+#: settings/custom_shortcodes.php:116
+msgid "Deep Purple"
+msgstr ""
+
+#: settings/custom_shortcodes.php:117
+msgid "Indigo"
+msgstr ""
+
+#: settings/custom_shortcodes.php:118
+msgid "Blue"
+msgstr ""
+
+#: settings/custom_shortcodes.php:119
+msgid "Light Blue"
+msgstr ""
+
+#: settings/custom_shortcodes.php:120
+msgid "Cyan"
+msgstr ""
+
+#: settings/custom_shortcodes.php:121
+msgid "Teal"
+msgstr ""
+
+#: settings/custom_shortcodes.php:122
+msgid "Green"
+msgstr ""
+
+#: settings/custom_shortcodes.php:123
+msgid "Light Green"
+msgstr ""
+
+#: settings/custom_shortcodes.php:124
+msgid "Lime"
+msgstr ""
+
+#: settings/custom_shortcodes.php:125
+msgid "Yellow"
+msgstr ""
+
+#: settings/custom_shortcodes.php:126
+msgid "Amber"
+msgstr ""
+
+#: settings/custom_shortcodes.php:127
+msgid "Orange"
+msgstr ""
+
+#: settings/custom_shortcodes.php:128
+msgid "Deep Orange"
+msgstr ""
+
+#: settings/custom_shortcodes.php:129
+msgid "Brown"
+msgstr ""
+
+#: settings/custom_shortcodes.php:130
+msgid "Grey"
+msgstr ""
+
+#: settings/custom_shortcodes.php:131
+msgid "Blue Grey"
+msgstr ""
+
+#: settings/custom_shortcodes.php:135
+msgid "Select the skin color for this layout."
+msgstr ""
+
+#: settings/custom_shortcodes.php:143
+msgid "Show Service Name"
+msgstr ""
+
+#: settings/custom_shortcodes.php:147 settings/custom_shortcodes.php:164
+#: settings/custom_shortcodes.php:181 settings/settings.php:498
+#: settings/settings.php:586
+msgid "Yes"
+msgstr ""
+
+#: settings/custom_shortcodes.php:148 settings/custom_shortcodes.php:165
+#: settings/custom_shortcodes.php:182 settings/settings.php:499
+#: settings/settings.php:587
+msgid "No"
+msgstr ""
+
+#: settings/custom_shortcodes.php:152
+msgid "Display the service name in the selected layout."
+msgstr ""
+
+#: settings/custom_shortcodes.php:169
+msgid "Display the week navigation in the selected layout."
+msgstr ""
+
+#: settings/custom_shortcodes.php:186
+msgid "Display the tooltips in the selected layout."
+msgstr ""
+
+#: settings/custom_shortcodes.php:194
+msgid "Limit"
+msgstr ""
+
+#: settings/custom_shortcodes.php:201
+msgid "Select a limit of posts to display."
+msgstr ""
+
+#: settings/payments.php:49
+msgid "You must enable at least one payment method."
+msgstr ""
+
+#: settings/payments.php:54
+msgid "Currency"
+msgstr ""
+
+#: settings/payments.php:58
+msgid "Australian Dollars ($)"
+msgstr ""
+
+#: settings/payments.php:59
+msgid "Brazilian Real (R$)"
+msgstr ""
+
+#: settings/payments.php:60
+msgid "Canadian Dollars ($)"
+msgstr ""
+
+#: settings/payments.php:61
+msgid "Chinese Yuan (¥)"
+msgstr ""
+
+#: settings/payments.php:62
+msgid "Czech Koruna (Kč)"
+msgstr ""
+
+#: settings/payments.php:63
+msgid "Danish Krone (kr)"
+msgstr ""
+
+#: settings/payments.php:64
+msgid "Euros (€)"
+msgstr ""
+
+#: settings/payments.php:66
+msgid "Hong Kong Dollar ($)"
+msgstr ""
+
+#: settings/payments.php:67
+msgid "Hungarian Forint (Ft)"
+msgstr ""
+
+#: settings/payments.php:68
+msgid "Indonesia Rupiah (Rp)"
+msgstr ""
+
+#: settings/payments.php:69
+msgid "Indian Rupee (₹)"
+msgstr ""
+
+#: settings/payments.php:70
+msgid "Israeli Shekel (₪)"
+msgstr ""
+
+#: settings/payments.php:71
+msgid "Japanese Yen (¥)"
+msgstr ""
+
+#: settings/payments.php:72
+msgid "South Korean Won (₩)"
+msgstr ""
+
+#: settings/payments.php:73
+msgid "Malaysian Ringgits (RM)"
+msgstr ""
+
+#: settings/payments.php:74
+msgid "Mexican Peso ($)"
+msgstr ""
+
+#: settings/payments.php:75
+msgid "Norwegian Krone (kr)"
+msgstr ""
+
+#: settings/payments.php:76
+msgid "New Zealand Dollar ($)"
+msgstr ""
+
+#: settings/payments.php:77
+msgid "Philippine Pesos (₱)"
+msgstr ""
+
+#: settings/payments.php:78
+msgid "Polish Zloty (zł)"
+msgstr ""
+
+#: settings/payments.php:79
+msgid "Pounds Sterling (£)"
+msgstr ""
+
+#: settings/payments.php:80
+msgid "Romanian Leu (lei)"
+msgstr ""
+
+#: settings/payments.php:81
+msgid "Russian Ruble (руб.)"
+msgstr ""
+
+#: settings/payments.php:82
+msgid "Singapore Dollar ($)"
+msgstr ""
+
+#: settings/payments.php:83
+msgid "South African rand (R)"
+msgstr ""
+
+#: settings/payments.php:84
+msgid "Swedish Krona (kr)"
+msgstr ""
+
+#: settings/payments.php:85
+msgid "Swiss Franc (CHF)"
+msgstr ""
+
+#: settings/payments.php:86
+msgid "Taiwan New Dollars (NT$)"
+msgstr ""
+
+#: settings/payments.php:87
+msgid "Thai Baht (฿)"
+msgstr ""
+
+#: settings/payments.php:88
+msgid "Turkish Lira (TL)"
+msgstr ""
+
+#: settings/payments.php:89
+msgid "US Dollars ($)"
+msgstr ""
+
+#: settings/payments.php:93
+msgid "Set the currency to display in the events list."
+msgstr ""
+
+#: settings/payments.php:101
+msgid "Price"
+msgstr ""
+
+#: settings/payments.php:107
+msgid "Set the appointments general price. Set 0 for free appointments."
+msgstr ""
+
+#: settings/payments.php:113
+msgid "PayPal Gateway"
+msgstr ""
+
+#: settings/payments.php:117 settings/payments.php:204
+msgid "Enable / Disable"
+msgstr ""
+
+#: settings/payments.php:123
+msgid "Enable Paypal gateway."
+msgstr ""
+
+#: settings/payments.php:137 settings/payments.php:224
+msgid "Text that user sees during checkout."
+msgstr ""
+
+#: settings/payments.php:151 settings/payments.php:238
+msgid "Description that user sees during checkout."
+msgstr ""
+
+#: settings/payments.php:159
+msgid "PayPal Email"
+msgstr ""
+
+#: settings/payments.php:165
+msgid "Enter your PayPal email to take payments."
+msgstr ""
+
+#: settings/payments.php:173
+msgid "Main Receiver Email"
+msgstr ""
+
+#: settings/payments.php:179
+msgid "Enter your main PayPal email to validate IPN requests."
+msgstr ""
+
+#: settings/payments.php:187
+msgid "PayPal Sandbox"
+msgstr ""
+
+#: settings/payments.php:193
+msgid ""
+"PayPal sandbox can be used to test payments. Sign up for a developer account "
+"<a href=\"https://developer.paypal.com/\" target=\"_blank\">here</a>."
+msgstr ""
+
+#: settings/payments.php:200
+msgid "Stripe Gateway"
+msgstr ""
+
+#: settings/payments.php:210
+msgid "Enable Stripe gateway."
+msgstr ""
+
+#: settings/payments.php:246
+msgid "Test Secret API"
+msgstr ""
+
+#: settings/payments.php:252
+msgid "Enter your Test Secret API."
+msgstr ""
+
+#: settings/payments.php:260
+msgid "Test Publishable API"
+msgstr ""
+
+#: settings/payments.php:266
+msgid "Enter your Test Publishable API."
+msgstr ""
+
+#: settings/payments.php:274
+msgid "Live Secret API"
+msgstr ""
+
+#: settings/payments.php:280
+msgid "Enter your Live Secret API."
+msgstr ""
+
+#: settings/payments.php:288
+msgid "Live Publishable API"
+msgstr ""
+
+#: settings/payments.php:294
+msgid "Enter your Live Publishable API."
+msgstr ""
+
+#: settings/payments.php:302
+msgid "Test Mode"
+msgstr ""
+
+#: settings/payments.php:308
+msgid "Allows to test payments."
+msgstr ""
+
+#: settings/payments.php:321 settings/settings.php:655
+msgid "Save Changes"
+msgstr ""
+
+#: settings/settings.php:16
+msgid "Categories"
+msgstr ""
+
+#: settings/settings.php:16
+msgid "Services"
+msgstr ""
+
+#: settings/settings.php:18
+msgid "Settings"
+msgstr ""
+
+#: settings/settings.php:20
+msgid "Custom Shortcodes"
+msgstr ""
+
+#: settings/settings.php:108
+msgid "User Roles:"
+msgstr ""
+
+#: settings/settings.php:130
+msgid "Select the user role that will manage the plugin."
+msgstr ""
+
+#: settings/settings.php:138
+msgid "Custom CSS:"
+msgstr ""
+
+#: settings/settings.php:146
+msgid "Add your custom CSS code."
+msgstr ""
+
+#: settings/settings.php:154
+msgid "First Day of the Week"
+msgstr ""
+
+#: settings/settings.php:163
+msgid "Select the first day to display in the schedule"
+msgstr ""
+
+#: settings/settings.php:171
+msgid "Time Base"
+msgstr ""
+
+#: settings/settings.php:175 settings/settings.php:176
+#: settings/settings.php:177 settings/settings.php:178
+#: settings/settings.php:179 settings/settings.php:180
+msgid "Minutes"
+msgstr ""
+
+#: settings/settings.php:185
+msgid "Select the time base for schedule intervals in minutes."
+msgstr ""
+
+#: settings/settings.php:193
+msgid "Max number of appointments"
+msgstr ""
+
+#: settings/settings.php:200
+msgid ""
+"Select the max number of appointments allowed per block of time. Set to 0 "
+"for no limits."
+msgstr ""
+
+#: settings/settings.php:208
+msgid "Start / End Time on schedule view"
+msgstr ""
+
+#: settings/settings.php:240
+msgid "Select the start / end time to display in the schedule view."
+msgstr ""
+
+#: settings/settings.php:248
+msgid "Block next time slots (hours)"
+msgstr ""
+
+#: settings/settings.php:255
+msgid ""
+"Block time slots with the value set in reference to the current time, so "
+"users can't set an appointment in those hours. i.e: If you need 2 days "
+"before approving an event, you should set 48 hours. Default: 0."
+msgstr ""
+
+#: settings/settings.php:263
+msgid "Approve Appointments automatically"
+msgstr ""
+
+#: settings/settings.php:269
+msgid "Appointments will be automatically approved."
+msgstr ""
+
+#: settings/settings.php:277
+msgid "Terms & Conditions Page"
+msgstr ""
+
+#: settings/settings.php:294
+msgid "Select the Terms & Conditions page for new appointments"
+msgstr ""
+
+#: settings/settings.php:302
+msgid "Appointment Fields"
+msgstr ""
+
+#: settings/settings.php:312
+msgid "Select the fields to display in the appointment form."
+msgstr ""
+
+#: settings/settings.php:320
+msgid "Allow not logged in users to set an appointment"
+msgstr ""
+
+#: settings/settings.php:326
+msgid "A Full name and email field will be required in the appointment form."
+msgstr ""
+
+#: settings/settings.php:334
+msgid "Email address to send notifications from:"
+msgstr ""
+
+#: settings/settings.php:348
+msgid "Email that will receive the user after creating an appointment"
+msgstr ""
+
+#: settings/settings.php:354 settings/settings.php:434
+msgid ""
+"Template of the email that will receive the user. Use the reserved tags to "
+"display dynamic data."
+msgstr ""
+
+#: settings/settings.php:362
+msgid "Email that will receive the admin when a user creates an appointment"
+msgstr ""
+
+#: settings/settings.php:368
+msgid ""
+"Template of the email that will receive the admin. Use the reserved tags to "
+"display dynamic data."
+msgstr ""
+
+#: settings/settings.php:377
+msgid "RTL (Right-to-left) Support"
+msgstr ""
+
+#: settings/settings.php:383
+msgid "Add RTL support for the calendars."
+msgstr ""
+
+#: settings/settings.php:389
+msgid "Reminders"
+msgstr ""
+
+#: settings/settings.php:395
+msgid "Enable Reminders"
+msgstr ""
+
+#: settings/settings.php:401
+msgid "enable reminders for appointments."
+msgstr ""
+
+#: settings/settings.php:409
+msgid "Days of anticipation"
+msgstr ""
+
+#: settings/settings.php:416
+msgid "Number of days before the appointment to send the reminder. Default: 1."
+msgstr ""
+
+#: settings/settings.php:428
+msgid "Email that will receive the user as the appointment reminder"
+msgstr ""
+
+#: settings/settings.php:442
+msgid "Working Days / Hours"
+msgstr ""
+
+#: settings/settings.php:465
+msgid "Select a service to set the Working Days."
+msgstr ""
+
+#: settings/settings.php:476 settings/settings.php:540
+#: settings/settings.php:564 settings/settings.php:628
+msgid "Day"
+msgstr ""
+
+#: settings/settings.php:477 settings/settings.php:541
+#: settings/settings.php:565 settings/settings.php:629
+msgid "Working"
+msgstr ""
+
+#: settings/settings.php:478 settings/settings.php:542
+#: settings/settings.php:566 settings/settings.php:630
+msgid "Start"
+msgstr ""
+
+#: settings/settings.php:479 settings/settings.php:543
+#: settings/settings.php:567 settings/settings.php:631
+msgid "End"
+msgstr ""
+
+#: settings/settings.php:548 settings/settings.php:636
+msgid "Exceptions"
+msgstr ""
+
+#: settings/settings.php:550 settings/settings.php:638
+msgid ""
+"Add specific days that users won't be able to set any appointment, like "
+"holidays. Format YYYY-MM-DD. Add multiple days separated by comma. i.e: "
+"2015-12-24,2015-12-25"
+msgstr ""
